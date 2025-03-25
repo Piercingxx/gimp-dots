@@ -15,13 +15,13 @@
 (include-color-profile no)
 (include-thumbnail no)
 (include-comment no)
-(use-original-quality yes)
+(use-original-quality no)
 (original-quality -1)
 (original-sub-sampling 2)
 (original-num-quant-tables 0)
 (show-preview no)
 (use-arithmetic-coding no)
 (use-restart no)
-(gimp-comment "")
+(gimp-comment "Default resolution for Diolinux's blog post images")
 
 # end of settings
