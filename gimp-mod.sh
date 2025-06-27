@@ -10,7 +10,7 @@ builddir=$(pwd)
                 # GIMP 3.0
                     mkdir -p /home/"$username"/.config/GIMP/3.0
                     chown -R "$username":"$username" /home/"$username"/.config/GIMP
-                    cd gimp-dots/Gimp || exit
+                    cd Gimp || exit
                     cp -Rf 3.0/* /home/"$username"/.config/GIMP/3.0
 
                 # GIMP 3.1
